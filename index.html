@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff0f2">
+    <title>Thương chồng không? 💗</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="ambient-hearts" aria-hidden="true">
+        <span>♥</span><span>♡</span><span>♥</span><span>♡</span><span>♥</span>
+        <span>♡</span><span>♥</span><span>♡</span><span>♥</span>
+    </div>
+    <div class="sparkle sparkle-one" aria-hidden="true">✦</div>
+    <div class="sparkle sparkle-two" aria-hidden="true">✧</div>
+
+    <main class="stage">
+        <section class="screen question-screen" id="questionScreen" aria-labelledby="questionTitle">
+            <div class="heart-stamp" aria-hidden="true">♡</div>
+            <p class="eyebrow">MỘT CÂU HỎI RẤT QUAN TRỌNG</p>
+            <h1 id="questionTitle">Thương chồng<br>không? <span>💗</span></h1>
+            <p class="subtitle">Trả lời thật lòng nhaaa 🥺</p>
+
+            <div class="button-arena" id="buttonArena" aria-label="Chọn câu trả lời">
+                <button class="button button-yes" id="btnYes" type="button">Có 💕</button>
+                <button class="button button-no" id="btnNo" type="button">Không 🙄</button>
+            </div>
+            <p class="no-response" id="noResponse" role="status" aria-live="polite" hidden>Vợ không thương chồng à? 🥺</p>
+            <p class="tiny-note">(Nghĩ kỹ trước khi chọn nha!)</p>
+        </section>
+
+        <section class="screen success-screen" id="successScreen" aria-labelledby="successTitle" hidden>
+            <div class="success-heart" aria-hidden="true">💖</div>
+            <p class="eyebrow">BIẾT NGAY MÀ!</p>
+            <h2 id="successTitle">Chồng cũng thương<br>vợ nhiều lắmmm 💖</h2>
+            <p class="subtitle">Yêu vợ nhấttt 🫶</p>
+            <button class="button button-restart" id="btnRestart" type="button">Chơi lại <span aria-hidden="true">↻</span></button>
+        </section>
+    </main>
+
+    <div class="celebration" id="celebration" aria-hidden="true"></div>
+</body>
+</html>
